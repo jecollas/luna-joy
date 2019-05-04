@@ -1,0 +1,65 @@
+/* luna joy */
+
+button {
+  border-radius: 50%;
+  padding: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  background-color: #B97F24;
+  border-style: solid;
+  border-color: #7F571B;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  background-color: #Bf9553;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80px;
+  /* color: #522888; */
+  color: #421C52;
+}
+
+#affect {
+  font-family: 'Open Sans', sans-serif;
+  /* color: #66369D; */
+  color: #421C52;
+}
+
+body {
+  margin: 2em;
+  text-align: center;
+  font-size: 40px;
+  /* background-color: #967BB9; */
+  background-color: #9C8AA5;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: auto;
+    line-height: normal;
+    font-size: 30px;
+  }
+}
+
+/*
+
+*/
